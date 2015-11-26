@@ -41,7 +41,7 @@ while True:
 		});
 		tj = pr.json()
 		things = tj["parameters"]["elements"]
-		thing = things[len(things)-1]["element"]
+		thing = things[0]["element"]
 		print("===============")
 		print("I have a guess.")
 		print("===============")
